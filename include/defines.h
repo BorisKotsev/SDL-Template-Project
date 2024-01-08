@@ -83,8 +83,9 @@ struct int2
 
 struct float2
 {
-	int x;
-	int y;
+	//!!!IMPORTANT!!!
+	float x;
+	float y; 
 
 	void reset()
 	{

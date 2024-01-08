@@ -62,6 +62,8 @@ void Presenter::improveRenderer()
 	mouseMultiply.x = (double)m_SCREEN_WIDTH / (double)desktopWidth;
 	mouseMultiply.y = (double)m_SCREEN_HEIGHT / (double)desktopHeight;
 
+	cout << mouseMultiply.x << " " << mouseMultiply.y << endl;
+
 	if (SDL_SetWindowFullscreen(m_mainWindow, SDL_WINDOW_FULLSCREEN_DESKTOP) < 0)
 	{
 		cout << "SDL Renderer improve failed!" << SDL_GetError();

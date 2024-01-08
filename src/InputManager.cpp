@@ -46,7 +46,7 @@ void InputManager::handleInput()
 			break;
 		}
 	}
-
+	cout << m_mouseCoor.x << " " << m_mouseCoor.y << endl;
 	m_keyboardState = SDL_GetKeyboardState(NULL);
 }
 
